@@ -12,7 +12,6 @@
   "dependencies":{
     "cli":"*"
   },
-  "scripts" : { "preinstall" : "git submodule update --init" },
   "main": "./lib/nclosure",
   "version": "0.4.3",
   "engines": { "node": ">=0.3.0-pre" },
