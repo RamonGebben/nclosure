@@ -9,8 +9,12 @@
     "bin": "./bin",
     "example": "./examples"
   },
+  "scripts":{
+    "postinstall":"node ./postinstall.js"
+  },
   "dependencies":{
-    "cli":"*"
+    "cli":"*",
+    "google-closure-library-latest":"*"
   },
   "main": "./lib/nclosure",
   "version": "0.4.3",
