@@ -14,7 +14,7 @@
   },
   "dependencies":{
     "cli":"*",
-    "google-closure-library-latest":"*"
+    "google-closure-library-latest":"https://github.com/wimpyprogrammer/node-google-closure-library-latest/tarball/0eb92fdc4830e6a7f57f78b09ccc7ae700c6d156"
   },
   "main": "./lib/nclosure",
   "version": "0.4.3",
