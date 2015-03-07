@@ -1,4 +1,5 @@
 .project
 .tmp_*~
 node_modules
+third_party/closure-library/
 

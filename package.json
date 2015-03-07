@@ -9,8 +9,12 @@
     "bin": "./bin",
     "example": "./examples"
   },
+  "scripts":{
+    "postinstall":"node ./postinstall.js"
+  },
   "dependencies":{
-    "cli":"*"
+    "cli":"*",
+    "google-closure-library-latest":"https://github.com/wimpyprogrammer/node-google-closure-library-latest/tarball/e0014a9dbe563a7e9334d554fedb734e53b3c5fc"
   },
   "main": "./lib/nclosure",
   "version": "0.4.3",
